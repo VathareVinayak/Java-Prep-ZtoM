@@ -24,6 +24,27 @@ public class Operators_java{
         System.out.println("Pre-increment Value Unary_num1 :- "+ post_Unary_num1);
         System.out.println("Pre-increment Value Unary_num2 :- "+ post_Unary_num2);
 
+        // Relational Operator
+        int Relational_num1 = 10;
+        int Relational_num2 = 20;
+        if(Relational_num1 == Relational_num2){
+            System.out.println("Both Are Same USED ==");
+        }
+        else{
+            System.out.println("Both Are Not Same  USED ==");
+        }
+        if(Relational_num1 != Relational_num2){
+            System.out.println("Both Are Not Same USED != ");
+        }
+        else{   
+            System.out.println("Both Are Same USED !=");
+        }
+        if(Relational_num1 > Relational_num2){
+            System.out.println("The Relational_Num1 is greater than Relational_Num2");
+        }
+        else{
+            System.out.println("The Relational_Num2 is greater than Relational_Num1");
+        }
 
     }
 
